@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body{
+   background-image: url(../new\ image/緑１.jpg);
+   background-size: cover; 
+   font-family: "Sawarabi Gothic";
+  
+}
+#log{
+    width: 100px;
+    padding:  10px 0 0px 20px;
+}
+header a{
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+    text-align: center;
+}
+nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 80%;
+}
+nav li{
+    display: table-cell;
+    min-width: 100px;
+}
+nav a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #555;
+}
+nav li.current{
+    border-bottom: 3px solid #9ac6e6;
+}
+nav li:hover{
+    color: #E7DA66;
+    border-bottom: 3px solid #F0E475;
+}
+nav{
+   margin-top: -35px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    background-color: #fff;
+}
+footer{
+    margin-top: 150px;
+    height: 200px;
+    text-align: center;
+    background-color: #7e9681;
+    padding-top: 60px;
+}
+footer p{
+    color: #fff;
+}

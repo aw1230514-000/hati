@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../new\ image/緑１.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    margin-left: 1px;
+    margin-right: 1000px;
+}
+.p1{
+    margin-top: 150px;
+    font-size: 27px;
+    font-weight: bold;
+    background-color: rgba(94, 231, 255, 0.322);
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 2px 5px 5px #2554b9ad;
+}
+
+
+
+
+.p2{
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.main p:nth-child(1){
+    color: rgb(73, 177, 142);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-top: 50px;
+    height: 20px;
+}
+
+.main p:nth-child(2){
+    color: rgb(66, 65, 63);
+    padding-top: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 290px;
+    margin-bottom: 30px;
+}
+
+.main p:nth-child(3){
+    color: rgb(66, 65, 63);
+
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-left: 290px;
+
+}
+
+table{
+    margin-top: 50px;
+    margin-left: 210px;
+    font-size: 10px;
+}
+
+.map{
+    width: 500px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+

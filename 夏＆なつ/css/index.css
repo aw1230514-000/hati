@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top{
+    width: 100%;
+    height: 800px;
+}
+#mainvs p{
+    position: absolute;
+    bottom: -8%;
+    left: 17%;
+    font-size: 80px;
+    color: #fff;
+}
+#content1{
+    height: 400px;
+}
+#charm{
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#charm ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+#charm img{
+    width: 30px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 150px 0 -10px 0;
+    padding: 20px;
+}
+#event{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+#event p{
+    border-bottom: solid 1px #afafaf6f;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: #ffffff88;
+}
+#bord{
+    border-top: solid 1px #afafaf6f;
+    background-color: #ffffff88;
+
+}
+.time{
+    font-size: small;
+    display: block;
+}
+#button_eve{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(75, 115, 144);
+    color: #ffffff;
+    border: #d2d2d2 solid 2px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+#button_eve:hover{
+    background-color: transparent;
+    border: 2px solid rgba(39, 43, 39, 0.87);
+    cursor: pointer;   
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+}
+
+#button{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.even{
+    background-color:rgb(253, 185, 38);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 10px  0 10px;
+}
+@media screen and (max-width: 600px) {
+}
