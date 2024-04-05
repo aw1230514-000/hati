@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/inquiry.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet"><body>
+
+</head>
+<body>
+    <header>
+      <a href="./index.html"><img src="./img/log.png" id="log"></a>
+      <nav>
+            <ul>
+                <li><a href="./index.html">ホーム</a></li>
+                <li><a href="./osirase.html">お知らせ</a></li>
+                <li><a href="./sisetu.html">施設紹介</a></li>
+                <li><a href="./access.html">アクセス</a></li>
+                <li class="current"><a href="./inquiry.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content"> 
+        <p id="title">ご意見・お問い合わせ</p>
+
+        <div class="Form">
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
+              <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+              <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+              <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+            </div>
+            <div class="Form-Item">
+                <input type="radio" name="内容" value="意見" checked class="rad"> ご意見<br>
+                <input type="radio" name="内容" value="問い合わせ" class="rad"> お問い合わせ内容<br>
+                <input type="radio" name="内容" value="両方" class="rad">どちらも<br>
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>ご意見・お問い合わせ内容</p>
+              <textarea class="Form-Item-Textarea"></textarea>
+            </div>
+            <input type="submit" class="Form-Btn" value="送信する">
+          </div>
+    </div>
+    <footer>
+      <p>Copyright © 2024 八幡山公園（はちまんやまこうえん） . Powered by WordPress | Theme: AccessPress Ray</p>
+      <div id="form">
+          <div class="foo"><p>〒320-0027　宇都宮市塙田5-1-1</p></div>
+          <div class="foo"><p>電話：028-624-0642　　ＦＡＸ：028-622-6002</p></div>
+      </div>
+  </footer>
+
+</body>
+</html>

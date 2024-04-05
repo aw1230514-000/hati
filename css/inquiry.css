@@ -1,0 +1,156 @@
+@charset "UTF-8";
+#title{
+    width: 700px;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Form {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+.rad{
+    width: 100px;
+}
+.Form-Item {
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Form-Item:nth-child(5) {
+    border-bottom: 1px solid #efeded;
+}
+.Form-Item-Label {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+    .Form-Item-Label {
+      max-width: inherit;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+    }
+  }
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+  .Form-Item-Label-Required {
+    width: 48px;
+    display: block;
+    text-align: center;
+    background:  rgb(253, 185, 38);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 0 6px  0 6px;
+    margin-bottom: 5px;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Label-Required {
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: 32px;
+      font-size: 10px;
+    }
+  }
+  .Form-Item-Input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #f7faff;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Input {
+      margin-left: 0;
+      margin-top: 18px;
+      height: 40px;
+      flex: inherit;
+      font-size: 15px;
+    }
+  }
+  .Form-Item-Textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #f7faff;
+    font-size: 18px;
+  }
+  .Form-Btn {
+    border-radius: 37px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: rgb(75, 115, 144);
+    color: #fff;
+    font-size: 20px;
+    border: #cecece solid 2px;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+
+  .Form-Btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(39, 43, 39, 0.87);
+    cursor: pointer;   
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+  }
+  #button{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+@media screen and (max-width: 600px) {
+  
+#title{
+    font-size: 30px;
+}
+.Form-Item {
+    display: block;
+}
+.Form-Item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.Form-Btn {
+width: 200px;
+}
+
+}
